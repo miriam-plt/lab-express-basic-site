@@ -1,0 +1,99 @@
+body {
+    background-color: #d0cfcd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white: #f7f9f9;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url(/images/bikini_kill_reunion_band.png);
+    background-size: cover;
+    background-position: center;
+    filter: brightness();
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .container {
+    text-align: center;
+    color: white;
+  }
+
+  .link {
+    color: white;
+    text-decoration: none;
+    border: 2px white solid;
+    padding: 10px 15px;
+  }
+
+.header {
+    margin: 50px;
+    padding: 50px;
+}
+
+.footer {
+    margin: 50px;
+    padding: 50px;
+
+}
+
+h3 {
+    font-size: 16px;
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.cover {
+    width: 150px;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+}
+
+.albums {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.singles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.compilations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    font-size: 20px;
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+d {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.photo {
+    width: 600px;
+    height: auto;
+    margin-top: 50px;
+}
